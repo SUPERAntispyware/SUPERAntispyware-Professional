@@ -46,7 +46,7 @@ The corresponding declarations are in [manager.h](clamscan/manager.h).
 Those links identify ClamAV components for comparison.
 They are not implementation details of SUPERAntiSpyware's scanning controls.
 
-![Windows malware scan summary showing completion status and items awaiting review](certs/r1/png)
+![Windows malware scan summary showing completion status and items awaiting review](certs/r1.png)
 
 ## Usage
 
@@ -131,7 +131,7 @@ Protocol handling appears in [proto.c](clamdscan/proto.c).
 This client/server split belongs to ClamAV.
 A ClamAV response, error code, or command cannot be assumed to apply to SUPERAntiSpyware.
 
-![Detection review with recorded item locations and a separate follow-up status](certs/r2/jpg)
+![Detection review with recorded item locations and a separate follow-up status](certs/r2.jpg)
 
 ## Requirements
 
